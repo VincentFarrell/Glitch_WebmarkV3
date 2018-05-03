@@ -1,0 +1,58 @@
+{{> menu id="dashboard"}}
+
+<section class="ui center aligned middle aligned segment">
+<h1 class="ui header">
+    Welcome to Webmark - Bookmark Manager
+  </h1>
+</section>
+
+<section class="ui segment">
+  <h1 class="ui header">
+    Welcome {{fullname}}
+  </h1>
+  
+  <section class="ui segment">
+  {{> listbookmarks}}
+  {{> addbookmark}}
+
+  
+  
+<section style="display: flex; justify-content: center;"> 
+  <img src="https://image.flaticon.com/sprites/new_packs/494514-bookmarks-tags.png" width="100px" height="100px">
+</section>
+
+  </section>
+  
+<!--  <section class="ui raised segment">
+    <h3 class="ui header">
+      Your Pictures:
+    </h3>
+    <div class="ui cards">
+      {{#each album.photos}}
+        {{> card }}
+      {{/each}}
+    </div>
+  </section>
+
+  <section class="ui raised segment">
+    <div class="ui small dividing header"> Picture Upload </div>
+    <section class="ui raised form segment">
+      <form action="/dashboard/uploadpicture" method="post" enctype="multipart/form-data">
+        <div class="two fields">
+          <div class="field">
+            <label>First Name</label>
+            <input type="file" name="picture">  </input>
+          </div>
+          <div class="field">
+            <label>Title</label>
+            <input placeholder="Title" type="text" name="title">
+          </div>
+        </div>
+        <button class="ui mini blue submit button"> Upload </button>
+      </form>
+    </section>
+    <div class="ui segment" align="right">
+    <a href="/dashboard/deleteallpictures"> <button class="negative ui button">Delete All</button></a>
+  </div>
+  </section>
+</section> -->

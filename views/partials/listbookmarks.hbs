@@ -1,0 +1,22 @@
+{{#each bookmarks}}
+
+<!--   <div class="ui cards">
+      {{#each bookmark.picture}}
+        {{> card }}
+      {{/each}}
+    </div> -->
+  
+  <section class="ui stacked segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> Click Icons to <br>
+      Show &nbsp;/&nbsp; Delete &nbsp;Bookmarks</p>
+    <a href="/bookmark/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deletebookmark/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}

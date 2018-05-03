@@ -1,0 +1,36 @@
+{
+  "bookmarkCollection": [
+    {
+      "id": "990e3edc-4c59-4fcc-bb3e-8f2da40e0b29",
+      "userid": "2b73d79c-a7c9-4dfc-9780-c803269bea7f",
+      "title": "Reddit",
+      "books": [
+        {
+          "id": "ca75186c-e9cd-4a76-a972-4b0b1a46e33a",
+          "title": "Reddit",
+          "link": "http://reddit.com/r/all/",
+          "desc": "Reddit's All Page"
+        },
+        {
+          "id": "e6f1569b-a073-43e2-807e-89d4a2b3dd8b",
+          "title": "r/NintendoSwitch",
+          "link": "http://reddit.com/r/nintendoswitch",
+          "desc": "NintendoSwitch Subreddit"
+        }
+      ]
+    },
+    {
+      "id": "c6e56549-4cb6-4f1c-a163-c952ea4a001a",
+      "userid": "2b73d79c-a7c9-4dfc-9780-c803269bea7f",
+      "title": "Youtube",
+      "books": [
+        {
+          "id": "02f84fad-67b5-487e-ae20-75feb2e5582b",
+          "title": "Home",
+          "link": "http://youtube.com/",
+          "desc": "Youtube Front page"
+        }
+      ]
+    }
+  ]
+}
